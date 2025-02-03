@@ -1,15 +1,71 @@
-# computer-science-final-degree-project-2023
-Source code of my Computer Science Bachelor's Thesis (Contexutal_Bandits_Fundamentals_and_Applications.pdf). This project develops a study of the contextual multi-armed bandits, a type of problem in the scope of reinforcement learning. 
+# 🤖 Contextual Multi-Armed Bandits: Fundamentals and Applications
 
-This repository includes the implementation of some practical applications of the contextual multi-armed bandits' algorithms (each of them are referenced in the same order as they appear in the main body of the thesis):
+## 📚 Overview
+This repository contains the source code for our Computer Science Bachelor's Thesis on Contextual Multi-Armed Bandits, a fascinating area of reinforcement learning. The project explores various practical applications and implementations of contextual bandit algorithms.
 
-- **Section 6.1** develops the first recommendation system in a context with few types of users using instances of the Upper Confidence Bounds (UCB) algorithm, a stochastic bandit method, as an introductory contextual bandit.
-- **Section 6.2** delves into Lipschitzian contextual bandits in order to employ a discretization process to create a recommendation system in a context with several types of user. After the discretization process, the situation is similiar to the one in Section 6.1 and it is possible to use instances of UCB.
+💡 **Note**: The section numbers in this repository (6.1, 6.2, 7, 8, 9) directly correspond to their respective chapters in the Bachelor's Thesis Report (`BACHELOR_THESIS_REPORT.pdf`).
 
-- **Section 7** involves a contextual routing game based on a network of roads and nodes, encompassing the development of the Hedge, GPMW, and cGPMW algorithms. In this network, the algorithms are contrasted, studying how the cGPMW algorithm, which uses an RVM regression model, takes advantage of the available contextual information to make better decisions about the shortest path for a specific journey.
+## 🎯 Project Structure
 
-- **Section 8** presents a trading bot system using EXP4 algorithm. Multiple financial experts, who use advanced concepts from the capital market to predict market trends, are tested in order to select depending on the contest the best one and follow its investment advice. Also, an analysis of exploration and learning rates is conducted.
+### 📊 Chapter 6.1: Basic Recommendation System
+- Implementation of a recommendation system with limited user types
+- Uses Upper Confidence Bounds (UCB) algorithm
+- Serves as an introduction to contextual bandits
+- 📁 Files: `few-contexts.ipynb`, `few-contexts-analysis.ipynb`
 
-- **Section 9** details a movie recommendation system that also leverages EXP4 algorithm. It employs various policies such as Epsilon-Greedy, a neural network adapted as a contextual bandit, and collaborative filtering using a neighborhood algorithm to construct a high-quality recommendation system.
+### 🔍 Chapter 6.2: Advanced Recommendation System
+- Explores Lipschitzian contextual bandits
+- Implements discretization for multiple user types
+- Enhanced version of Chapter 6.1's approach
+- Utilizes UCB algorithm instances
 
-Authors: Iván Hernández Roldán and Alejandro Magarzo Gonzalo.
+### 🛣️ Chapter 7: Contextual Routing Game
+- Network-based routing system with roads and nodes
+- Implements multiple algorithms:
+  - Hedge Algorithm
+  - GPMW (Gaussian Process Multi-armed Bandits)
+  - cGPMW with RVM regression model
+- Comparative analysis of algorithm performance
+- 📁 Key components: Network simulation, path algorithms, and visualization tools
+
+### 💹 Chapter 8: Trading Bot System
+- Implementation of EXP4 algorithm for financial trading
+- Multiple financial expert systems
+- Analysis of exploration and learning rates
+- Real-world market trend predictions
+
+### 🎬 Chapter 9: Movie Recommendation System
+- Advanced recommendation system using EXP4
+- Multiple recommendation policies:
+  - Epsilon-Greedy
+  - Neural Network adaptation
+  - Collaborative Filtering with neighborhood algorithm
+
+## 📝 Documentation
+- Full documentation available in `BACHELOR_THESIS_REPORT.pdf`
+- Detailed implementation guides in each section
+- Comprehensive code comments and explanations
+
+## 🛠️ Technologies Used
+- Python (Jupyter Notebooks)
+- C++ (Network Implementation)
+- Machine Learning Libraries
+- Data Analysis Tools
+
+## 👨‍💻 Authors
+- Iván Hernández Roldán
+- Alejandro Magarzo Gonzalo
+
+## 📈 Project Highlights
+- Practical implementation of theoretical concepts
+- Real-world applications in various domains
+- Comprehensive comparison of different algorithms
+- Extensive experimental results and analysis
+
+## 🔗 Related Resources
+- Bachelor's Thesis Document (PDF)
+- Implementation Examples
+- Performance Analysis Reports
+
+---
+💡 For detailed information about each implementation, please refer to the corresponding section folders and the main thesis document.
